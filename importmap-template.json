@@ -1,0 +1,26 @@
+{
+  "imports": {
+    "payu-ui/v1": "https://staging.payu.in/public-assets/lookup/ui-bundles/bundle.umd.js",
+    "@one-dash/root-config": "https://staging.payu.in/root-config.js",
+    "@one-dash/txns": "https://staging.payu.in/micro-bundles/txns/bundle.js",
+    "@one-dash/aside-menu": "https://staging.payu.in/micro-bundles/aside-menu/$customEval(\"(mid % 2 === 0) ? 'onedashsidemenu.2.4.2' : 'stable'\")/bundle.js",
+    "@one-dash/payouts": "https://staging.payu.in/micro-bundles/payouts/bundle.js",
+    "@one-dash/tools": "https://staging.payu.in/micro-bundles/tools/bundle.js",
+    "@one-dash/dmt": "https://staging.payu.in/micro-bundles/dmt/bundle.js",
+    "@neo-dash/banking": "https://staging.payu.in/micro-bundles/banking/bundle.js",
+    "@neo-dash/marketplace": "https://staging.payu.in/micro-bundles/marketplace/bundle.js",
+    "@neo-dash/beneficiary": "https://staging.payu.in/micro-bundles/beneficiary/bundle.js",
+    "@neo-dash/lending": "https://staging.payu.in/micro-bundles/lending/bundle.js",
+    "@one-dash/offerDashboard": "https://staging.payu.in/micro-bundles/one-dash__offerDashboard/bundle.js",
+    "@one-dash/aggregator": "https://staging.payu.in/micro-bundles/aggregator/bundle.js",
+    "@one-dash/front-office": "https://staging.payu.in/micro-bundles/front-office/bundle.js",
+    "@one-dash/data-platform": "https://staging.payu.in/micro-bundles/lookup/bundle.js",
+    "@one-dash/switch-pay": "https://staging.payu.in/micro-bundles/switch-pay/bundle.js",
+    "@one-dash/widget": "https://staging.payu.in/micro-bundles/one-dash_widget/bundle.js",
+    "payu-ui/v2": "https://staging.payu.in/payu-ui-bundles/bundle.umd.js",
+    "ui": "https://staging.payu.in/payu-ui-bundles/uiv2.umd.js",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.1.1/lib/system/single-spa.min.js",
+    "react": "https://cdn.jsdelivr.net/npm/react@16.13.0/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.0/umd/react-dom.production.min.js"
+  }
+}
